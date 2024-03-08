@@ -7,24 +7,37 @@
   src: url("./assets/fonts/NotoSansKR-Medium.otf");
 }
 
-*{
+* {
   -webkit-text-size-adjust: none;
   box-sizing: border-box;
-  margin:0;
-  padding:0;
-  border:0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   font-size: inherit;
   color: inherit;
   line-height: inherit;
-  transition: 0.2s ease;
+  transition: 0.3s ease;
 }
 
 body {
   font-family: "Noto Sans R";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-.test{
-  transition: none;
+test {
+ display:flex;
+ flex-direction: column;
+ flex-direction: row;
+ 
+ transform: translate(-130px,0);
+
+ justify-content:space-around;
+ align-items:center
+}
+
+@media only screen and (max-width: 1370px) {
+}
+@media only screen and (max-width: 767px) {
 }

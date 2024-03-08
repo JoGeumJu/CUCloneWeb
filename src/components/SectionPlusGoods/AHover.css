@@ -1,0 +1,31 @@
+/* animation들 */
+@keyframes toright {
+    from{
+        transform: scaleX(0);
+    }
+    to{
+        transform: scaleX(1);
+    }
+}
+@keyframes toleft {
+    from{
+        transform: scaleX(1);
+    }
+    to{
+        transform: scaleX(0);
+    }
+}
+@keyframes swipe {
+    0%{
+        margin-right:6px;
+        margin-left:0px;
+    }
+    50%{
+        margin-right:0px;
+        margin-left:6px;
+    }
+    100%{
+        margin-right:6px;
+        margin-left:0px;
+    }
+}

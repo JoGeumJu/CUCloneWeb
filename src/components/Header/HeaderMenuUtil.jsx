@@ -6,12 +6,12 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   // ★박스 크기 및 여백 설정★
-  width: 100vw;
+  width: 100%;
   height: 36px;
   // ★내부 설정★
   justify-content: flex-end;
   // ★행동 설정★
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 767px) {
     display: none;
   }
 `;
@@ -79,7 +79,7 @@ function HeaderMenuUtil(props) {
           <A href="">로그인</A>
         </Li>
         <LiAfter>
-          <A href="https://www.pocketcu.co.kr/auth/owner">점주인증</A>
+          <A href="https://www.pocketcu.co.kr/auth/owner" target="_blank">점주인증</A>
         </LiAfter>
         <LiAfter>
           <A href="http://owner.bgfretail.com">점주광장</A>
