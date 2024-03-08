@@ -1,5 +1,8 @@
 # CUCloneWeb
-CU 클론 웹사이트 CU clone website<br>
+<aside>
+💡 CU웹사이트의 메인페이지를 기반으로 `copy coding`한 프로젝트
+
+</aside>
 originWebsite - https://cu.bgfretail.com/index.do
 
 ## ✏️ Tools
